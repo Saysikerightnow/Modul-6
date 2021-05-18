@@ -52,13 +52,13 @@ a {
 }
 
 .nav-link:hover{
-    color: #55AD37;
+    color: #5cb71d;
 }
 
 .nav-logo {
     font-size: 2.1rem;
     font-weight: 500;
-    color: #55AD37;
+    color: #5cb71d;
 }
 
     .nav-menu {
@@ -100,19 +100,45 @@ a {
     transform: translateY(-8px) rotate(-45deg);
 }
 
-.overskrift {
+#hero {
+  width: 100%;
+  height: 86vh;
+
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+h1 {
   top: 50%;
-font-size: 18px;
+font-size: 65px;
 text-align: center;
+text-transform: uppercase;
 
   }
 
-.underoverskrift{
-  font-size: 15px;
+h2{
+  font-size: 35px;
   text-align: center;
-  font-family: 'Quicksand';
+  color: #5cb71d;
+  text-transform: uppercase;
+  font-family: 'quicksand';
   }
 
+  .fas {
+    font-size: 40px;
+    color: #5cb71d;
+    text-align: center;
+    width: 100%;
+  }
   @media only screen and (min-width: 600px) {
     .nav-menu {
         width: 30%;
