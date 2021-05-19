@@ -101,6 +101,13 @@ a {
     transform: translateY(-8px) rotate(-45deg);
 }
 
+/* NAVBARSTYLE SCRIPT*/
+.scrolling-active {
+  background-color: #fff;
+  box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+}
+
+
 /* HERO */
 
 #hero {
