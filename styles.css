@@ -102,13 +102,6 @@ a {
     transform: translateY(-8px) rotate(-45deg);
 }
 
-/* NAVBARSTYLE SCRIPT*/
-.scrolling-active {
-  background-color: #fff;
-  box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-}
-
-
 /* HERO */
 
 #hero {
@@ -249,5 +242,10 @@ button {
   @media screen and (max-width: 600px) {
     .footercontainer {
       gap: 7vh;
+      }
+
+    .scrolling-active {
+      background-color: #fff;
+      box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
       }
     }
