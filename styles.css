@@ -186,6 +186,11 @@ button {
   border-radius: 10px;
   font-family: 'roboto condensed';
   cursor: pointer;
+  transition: 650ms;
+}
+
+button:hover {
+  background-color: #4C8B1E;
 }
 
 
