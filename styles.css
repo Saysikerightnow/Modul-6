@@ -249,5 +249,5 @@ button {
   @media screen and (max-width: 600px) {
     .footercontainer {
       gap: 7vh;
-    }
+      }
     }
