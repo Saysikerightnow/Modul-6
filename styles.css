@@ -22,6 +22,8 @@ a {
 /* NAVIGATION */
 
 .navbar {
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,7 +37,7 @@ a {
 
 .bar {
     display: block;
-    width: 25px;
+    width: 28px;
     height: 3px;
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
@@ -204,7 +206,7 @@ button {
     width: 100%;
     gap: 4px;
   }
-  
+
   .footercontainer > div {
     color: #4b4b4b;
     font-family: Quicksand;
@@ -212,26 +214,25 @@ button {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  
+
   .undertitel {
     font-family: "Roboto Condensed bold", sans-serif;
   }
-  
+
   .kontaktinfo {
     grid-column-start: 2;
     align-items: center;
   }
-  
+
   .links {
     align-items: center;
   }
-  
+
   .logoer {
     justify-items: right;
     text-align: right;
   }
-  
+
   .ikoner {
     font-size: 50px;
   }
-   
