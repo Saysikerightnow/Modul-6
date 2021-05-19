@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto Condensed');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 @import "https://fonts.googleapis.com/css?family=Quicksand";
 * * {
     margin: 0;
@@ -9,6 +9,7 @@
 html {
     font-size: 62.5%;
     font-family: 'Roboto Condensed', sans-serif;
+    scroll-behavior: smooth;
 }
 
 li {
@@ -166,7 +167,8 @@ text-transform: uppercase;
 #guide h2{
   font-size: 2rem;
 text-align: center;
-  font-family: 'Roboto condensed';
+  font-family: 'roboto condensed';
+  font-weight: normal;
 }
 
 span {
