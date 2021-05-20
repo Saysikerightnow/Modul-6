@@ -205,13 +205,13 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #cccccc;
+    background-color: #5cb71b;
     width: 100%;
     gap: 20vh;
   }
 
   .footercontainer > div {
-    color: #4b4b4b;
+    color: #fff;
     font-family: Quicksand;
     font-weight: bold;
     padding-top: 50px;
@@ -219,6 +219,11 @@ button:hover {
   }
 
   .undertitel {
+    font-family: "Roboto Condensed bold", sans-serif;
+    color: #2b2b2b;
+  }
+
+  .norqititel {
     font-family: "Roboto Condensed bold", sans-serif;
   }
 
