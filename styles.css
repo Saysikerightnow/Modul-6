@@ -71,7 +71,7 @@ a {
         flex-direction: column;
         background-color: #fff;
         width: 100%;
-        height: 100%;
+        height: 100vh;
         border-radius: 5px;
         text-align: center;
         transition: 0.3s;
@@ -149,7 +149,6 @@ a {
 .container {
   width: 100%;
   height: 100%;
-  max-width: 1000px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -198,10 +197,15 @@ color: #2b2b2b;
   height: 100vh;
 
 }
+.info1 {
+  background-color: #F2F5F4;
+  width: 100%;
+  padding: 3rem;
 
+}
 #guide h1{
   text-align: center;
-font-size: 4rem;
+font-size: 3.4rem;
 text-transform: uppercase;
 color: #2b2b2b;
 }
@@ -215,6 +219,14 @@ text-align: center;
 
 span {
   color: 	#778899;
+}
+
+.baggrund{
+  background-color: : #F2F5F4;
+  height: 30%;
+  width: 100%;
+  display: flex;
+  z-index: 0;
 }
 /* BUTTON */
 button {
