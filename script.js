@@ -11,7 +11,15 @@ function mobileMenu() {
 }
 
 //dropdown i menuen
+//dropdown produkter
+document.getElementById("menu1").addEventListener("click", openMenu1);
 
+function openMenu1() {
+
+  document.getElementById("dropdown1").classList.toggle("active")
+}
+
+//dropdown God viden
 document.getElementById("menu").addEventListener("click", openMenu);
 
 function openMenu() {

@@ -115,6 +115,22 @@ a {
 #dropdown.active {
   display: block;
 }
+
+#dropdown1 {
+  display: none;
+  font-size: 1.6rem;
+  color: #475569;
+}
+
+#dropdown1 li{
+  padding: 10px 0px;
+}
+
+#dropdown1.active {
+  display: block;
+}
+
+
 /* HERO */
 
 #hero {
@@ -147,6 +163,7 @@ bottom: 2%;
   color: #5cb71d;
   text-align: center;
 }
+
 
 
 /* FONTS */
