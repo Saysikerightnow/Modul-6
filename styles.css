@@ -30,6 +30,7 @@ a {
     align-items: center;
     padding: 1rem 1.5rem;
     z-index: 1000;
+
 }
 
 .hamburger {
@@ -76,6 +77,8 @@ a {
         transition: 0.3s;
         box-shadow:
             0 10px 27px rgba(0, 0, 0, 0.05);
+
+
     }
 
     .nav-menu.active {
@@ -101,7 +104,7 @@ a {
 .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
 }
-
+/* Navigation dropdown */
 #dropdown {
   display: none;
   font-size: 1.6rem;
@@ -131,6 +134,10 @@ a {
 }
 
 
+.nav-menu li:hover {
+  color: #5cb71d;
+  cursor: pointer;
+}
 /* HERO */
 
 #hero {
