@@ -54,7 +54,7 @@ a {
   width: 65px;
 }
 .nav-link{
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: #475569;
 }
 
@@ -102,6 +102,19 @@ a {
     transform: translateY(-8px) rotate(-45deg);
 }
 
+#dropdown {
+  display: none;
+  font-size: 1.6rem;
+  color: #475569;
+}
+
+#dropdown li{
+  padding: 10px 0px;
+}
+
+#dropdown.active {
+  display: block;
+}
 /* HERO */
 
 #hero {
@@ -129,11 +142,12 @@ position: absolute;
 bottom: 2%;
 
 }
-.fas {
+.fa-arrow-circle-down {
   font-size: 40px;
   color: #5cb71d;
   text-align: center;
 }
+
 
 /* FONTS */
 
@@ -257,5 +271,3 @@ button:hover {
       box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
       }
     }
-
-    
