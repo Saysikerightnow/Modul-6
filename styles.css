@@ -170,6 +170,91 @@ bottom: 2%;
   text-align: center;
 }
 
+/* TERMOMETER */
+.cls-2{
+  transition: all .3s ease-in-out;
+     transition: transform 0.3s ease;
+
+  transform-origin: center center;
+ transform-box: fill-box;
+}
+
+.cls-2:hover{
+  transform:scale(1.2);
+}
+
+#stege{
+  cursor:default;
+transition: all .3s ease-in-out;
+   transition: transform 0.3s ease;
+   transform-origin: center left;
+   transform-box: fill-box;
+}
+
+#stege:hover{
+  transform: scale(1.5);
+}
+
+.cls-55{
+  font-size: 12.85px;
+}
+
+#tekst{
+  cursor:default;
+  transition: all .3s ease-in-out;
+     transition: transform 0.3s ease;
+transform-origin: center right;
+  transform-box: fill-box;
+}
+#tekst:hover{
+  transform: scale(1.5);
+}
+
+#tekst1{
+  cursor:default;
+  transition: all .3s ease-in-out;
+     transition: transform 0.3s ease;
+transform-origin: center center;
+  transform-box: fill-box;
+}
+#tekst1:hover{
+  transform: scale(1.5);
+}
+
+#tekst2{
+  cursor:default;
+  transition: all .3s ease-in-out;
+     transition: transform 0.3s ease;
+transform-origin: center center;
+  transform-box: fill-box;
+}
+#tekst2:hover{
+  transform: scale(1.1);
+}
+
+.termoscreen{
+  display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+}
+.termoscreen{
+background-color: #F2F5F4;
+width: 100%;
+}
+
+.centersection1{
+width: 100%;
+height: 15vh;
+}
+svg{
+overflow:visible;
+}
+
+#termosection{
+  width: 100%;
+  height: 70vh;
+}
 
 
 /* FONTS */
@@ -354,9 +439,9 @@ color: #5cb71b;
         flex-direction: column;
         justify-items: center;
         text-align: center;
-    
+
     }
-    
+
     @media screen and (max-width: 610px) {
           .logoer {
             gap: 0;
@@ -364,7 +449,7 @@ color: #5cb71b;
           justify-items: center;
           text-align: center;
               }
-    
+
     .scrolling-active {
       background-color: #fff;
       box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
