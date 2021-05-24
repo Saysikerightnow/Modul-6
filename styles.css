@@ -222,7 +222,7 @@ span {
 }
 
 .baggrund{
-  background-color: : #F2F5F4;
+  background-color: #F2F5F4;
   height: 30%;
   width: 100%;
   display: flex;
@@ -294,6 +294,40 @@ button:hover {
     font-size: 50px;
   }
 
+/* Frem tilbage kontroller  */
+
+#kontroller {
+  min-height: 20vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+#kontroller > div {
+  gap: 10px;
+  font-size: 4rem;
+  color: #404040;
+}
+.fremtilbage {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+}
+
+.kontrollerh1 {
+  font-size: 2rem;
+  color: #404040;
+}
+.kontrollerh12 {
+font-size: 3rem;
+color: #5cb71b;
+}
+
+@media (max-width: 600px) {
+  #kontroller { min-height: auto; }
+}
 
     @media only screen and (min-width: 600px) {
       .nav-menu {
