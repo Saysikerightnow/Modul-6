@@ -249,50 +249,58 @@ button:hover {
 
 
 
+
   /* FOOTER  */
+#footer {
+  display: flex;
+  width: 100%;
+  bottom: 0px;
+  overflow: hidden;
+  min-height: 200px;
+}
+.footercontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #5cb71b;
+  width: 100%;
+  gap: 17vh;
+  font-size: 1.5rem;
+}
 
-  .footercontainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #5cb71b;
-    width: 100%;
-    gap: 20vh;
-  }
+.footercontainer > div {
+  color: #fff;
+  font-family: Quicksand;
+  font-weight: bold;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 
-  .footercontainer > div {
-    color: #fff;
-    font-family: Quicksand;
-    font-weight: bold;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
+.undertitel {
+  font-family: "Roboto Condensed bold", sans-serif;
+  color: #2b2b2b;
+}
 
-  .undertitel {
-    font-family: "Roboto Condensed bold", sans-serif;
-    color: #2b2b2b;
-  }
+.norqititel {
+  font-family: "Roboto Condensed bold", sans-serif;
+}
 
-  .norqititel {
-    font-family: "Roboto Condensed bold", sans-serif;
-  }
+.kontaktinfo {
+  align-items: center;
+}
 
-  .kontaktinfo {
-    align-items: center;
-  }
+.links {
+  align-items: center;
+}
 
-  .links {
-    align-items: center;
-  }
+.logoer {
+  justify-items: right;
+  text-align: right;
+}
 
-  .logoer {
-    justify-items: right;
-    text-align: right;
-  }
-
-  .ikoner {
-    font-size: 50px;
-  }
+.ikoner {
+  font-size: 50px;
+}
 
 /* Frem tilbage kontroller  */
 
@@ -340,7 +348,23 @@ color: #5cb71b;
     .footercontainer {
       gap: 7vh;
       }
-
+      @media screen and (max-width: 610px) {
+        .footercontainer {
+          gap: 0;
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+    
+    }
+    
+    @media screen and (max-width: 610px) {
+          .logoer {
+            gap: 0;
+          flex-direction: column;
+          justify-items: center;
+          text-align: center;
+              }
+    
     .scrolling-active {
       background-color: #fff;
       box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
