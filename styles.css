@@ -259,7 +259,7 @@ overflow:visible;
 
 /* FONTS */
 
-#hero h1 {
+.hero h1 {
   top: 50%;
 font-size: 4rem;
 text-align: center;
@@ -268,7 +268,7 @@ color: #2b2b2b;
 
   }
 
-#hero h2{
+.hero h2{
   font-size: 2.1875rem;
   text-align: center;
   color: #5cb71d;
@@ -418,6 +418,28 @@ font-size: 3rem;
 color: #5cb71b;
 }
 
+/*Dette er parallax*/
+.parallax {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallax img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*parallax slut*/
+
+
 @media (max-width: 600px) {
   #kontroller { min-height: auto; }
 }
@@ -455,25 +477,3 @@ color: #5cb71b;
       box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
       }
     }
-/*Dette er parallax*/
-.parallax {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-
-}
-
-.parallax img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-/*parallax slut*/
