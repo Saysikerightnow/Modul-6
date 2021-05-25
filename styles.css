@@ -455,3 +455,25 @@ color: #5cb71b;
       box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
       }
     }
+/*Dette er parallax*/
+.parallax {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.parallax img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*parallax slut*/
