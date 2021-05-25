@@ -64,7 +64,7 @@
     }
 
 #menukipgryde > div {
-  font-size: 2.1875rem;
+  font-size: 2rem;
   justify-content: center;
   align-items: center;
   font-family: 'quicksand';
@@ -79,6 +79,9 @@
 
 @media (max-width: 600px) {
   .menulayout { grid-template-columns: repeat(1, 90vw); }
+}
+@media (max-width: 600px) {
+  .menulayout { grid-template-rows:50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh; }
 }
 @media (min-width: 600px) {
   .menulayout { grid-template-columns: repeat(2, 40vw); }
