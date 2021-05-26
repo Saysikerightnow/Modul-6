@@ -439,6 +439,19 @@ color: #5cb71b;
 }
 /*parallax slut*/
 
+/*reveal css*/
+.reveal{
+  position: relative;
+  transform: translateY(50px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+
 
 @media (max-width: 600px) {
   #kontroller { min-height: auto; }
