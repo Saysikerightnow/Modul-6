@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="menulayout.css" />
+    <script src="menu.js"></script>
     <title>Menu til kipgryde</title>
     <script
       src="https://kit.fontawesome.com/4f45418ed6.js"
@@ -49,58 +50,88 @@
   </header>
   <body>
     <section id="menuintro">
-        <div class="menucontainer">
-  
+      <div class="menucontainer">
         <div class="menuinfo">
-          <h1> Menuen på kipgryden</h1>
-          <h2> I denne del af vejledningen handler det om hvordan du bruger menuen og diverse undermenuer på kipgryden.
-            Nedenfor er der en illustration af menuen, hvor der under hver punkt også gemmer sig en undermenu.
-            God fornøjelse! </h2>
-          </div>
-          <div class="arrow">
-          <a href="#guide"><i class="fas fa-arrow-circle-down"></i></a>
-          </div>
-  
-  
+          <h1>Menuen på kipgryden</h1>
+          <h2>
+            I denne del af vejledningen handler det om hvordan du bruger menuen
+            og diverse undermenuer på kipgryden. Nedenfor er der en illustration
+            af menuen, hvor der under hver punkt også gemmer sig en undermenu.
+            God fornøjelse!
+          </h2>
         </div>
-      </section>
+        <div class="arrow">
+          <a href="#guide"><i class="fas fa-arrow-circle-down"></i></a>
+        </div>
+      </div>
+    </section>
     <section id="menukipgryde">
       <div class="menulayout">
-        <div class="temperaturinfo">
-          <p>Donec id turpis at turpis venenatis consequat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-            <br>
-            Donec a est ornare, ornare orci ac, sodales quam. Suspendisse tincidunt venenatis tincidunt. Phasellus sed aliquam metus. 
-            <br> In dictum libero eu ullamcorper mollis. Cras at fermentum quam. Praesent vel tempor sapien.</p>
+        <div class="varmeinfo">
+          <p>
+            Donec id turpis at turpis venenatis consequat. Class aptent taciti
+            sociosqu ad litora torquent per conubia nostra, per inceptos
+            himenaeos.
+            <br />
+            Donec a est ornare, ornare orci ac, sodales quam. Suspendisse
+            tincidunt venenatis tincidunt. Phasellus sed aliquam metus.
+            <br />
+            In dictum libero eu ullamcorper mollis. Cras at fermentum quam.
+            Praesent vel tempor sapien.
+          </p>
         </div>
-        <div class="tempmenu">
-          <img class="image" src="images/varmestorv2.png" alt="temperatur">
+        <div class="varmeundermenu">
+          <div class="tab" id="hide">
+            <input
+              class="menulinks1" 
+              type="image"
+              onclick="openFase(event,'fase1');myFunction()"
+              src="images/varmelille2.png"
+              style="border-width: 0px"
+            />
+          </div>
+          <div class="menucontents">
+            <img
+              id="fase1"
+              class="menucontent1"
+              src="images/varmestor2.png"
+              alt="varme"
+              onclick="fjernclass();"
+            />
+          </div>
         </div>
         <div class="vandinfo">
-          <p>Donec id turpis at turpis venenatis consequat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-            <br>
-            Donec a est ornare, ornare orci ac, sodales quam. Suspendisse tincidunt venenatis tincidunt. Phasellus sed aliquam metus. 
-            <br> In dictum libero eu ullamcorper mollis. Cras at fermentum quam. Praesent vel tempor sapien.</p>
+          <p>
+            Donec id turpis at turpis venenatis consequat. Class aptent taciti
+            sociosqu ad litora torquent per conubia nostra, per inceptos
+            himenaeos.
+            <br />
+            Donec a est ornare, ornare orci ac, sodales quam. Suspendisse
+            tincidunt venenatis tincidunt. Phasellus sed aliquam metus.
+            <br />
+            In dictum libero eu ullamcorper mollis. Cras at fermentum quam.
+            Praesent vel tempor sapien.
+          </p>
         </div>
         <div class="vandmenu">
-          <img class="image" src="images/varmestorv2.png" alt="temperatur">
+          <img class="image1" src="images/varmelille2.png" alt="temperatur" />
         </div>
         <div class="tidinfo">
-          <p>Donec id turpis at turpis venenatis consequat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-            <br>
-            Donec a est ornare, ornare orci ac, sodales quam. Suspendisse tincidunt venenatis tincidunt. Phasellus sed aliquam metus. 
-            <br> In dictum libero eu ullamcorper mollis. Cras at fermentum quam. Praesent vel tempor sapien.</p>
+          <p>
+            Donec id turpis at turpis venenatis consequat. Class aptent taciti
+            sociosqu ad litora torquent per conubia nostra, per inceptos
+            himenaeos.
+            <br />
+            Donec a est ornare, ornare orci ac, sodales quam. Suspendisse
+            tincidunt venenatis tincidunt. Phasellus sed aliquam metus.
+            <br />
+            In dictum libero eu ullamcorper mollis. Cras at fermentum quam.
+            Praesent vel tempor sapien.
+          </p>
         </div>
         <div class="tidmenu">
-          <img class="image" src="images/varmestorv2.png" alt="temperatur">
-        </div><div class="blankinfo">
-          <p>Donec id turpis at turpis venenatis consequat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-            <br>
-            Donec a est ornare, ornare orci ac, sodales quam. Suspendisse tincidunt venenatis tincidunt. Phasellus sed aliquam metus. 
-            <br> In dictum libero eu ullamcorper mollis. Cras at fermentum quam. Praesent vel tempor sapien.</p>
-        </div>
-        <div class="blankmenu">
-          <img class="image" src="images/varmestorv2.png" alt="temperatur">
-        </div>
+          <img class="image1" src="images/varmelille2.png" alt="temperatur" />
+        </div>            
       </div>
     </section>
     <!-- Dette er frem/tilbage kontrolleren  -->

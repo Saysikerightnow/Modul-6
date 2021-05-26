@@ -1,3 +1,39 @@
+/* Dette er css til script  */
+
+.varmeundermenu {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.menucontent {
+  display: none;
+}
+.menucontent1 {
+  display: none;
+}
+.test {
+  display: none;
+}
+
+.menulinks1 {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: block;
+  height: auto;
+  max-width: 70%;
+  max-height: 80%;
+}
+
+.menucontent1 {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  height: auto;
+  max-width: 70%;
+  max-height: 80%;
+}
+/* ovenover er kode til script  */
+
 #menukipgryde {
   display: grid;
   grid-template-columns: 80vw;
@@ -9,8 +45,9 @@
 .menulayout {
   display: grid;
   grid-template-columns: 40vw 40vw;
-  grid-template-rows: 50vh 50vh 50vh 50vh;
+  grid-template-rows: minmax(min-content, max-content);
   justify-content: center;
+  grid-gap: 2rem;
 }
 
 .menuintro {
@@ -61,13 +98,32 @@
   line-height: 40px;
 }
 
+/* dette er align center kode til diverse divs */
+
+.varmeinfo {
+  align-self: center;
+}
+
+.vandinfo {
+  align-self: center;
+}
+
+.tidinfo {
+  align-self: center;
+}
+
+.blankinfo {
+  align-self: center;
+}
+/* ovenover er align center divs  */
+
 #menukipgryde > div {
   font-size: 2rem;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   font-family: "quicksand";
 }
-.image {
+.image1 {
   width: 90%;
   height: auto;
   margin: auto;
@@ -77,16 +133,26 @@
   max-height: 80%;
 }
 
-.tempmenu {
+.image2 {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: block;
+  height: auto;
+  max-width: 70%;
+  max-height: 80%;
+}
+
+.menu1 {
   align-items: center;
 }
 
-@media (max-width:1000px) {
-.image {
-  max-width: 100%;
+@media (max-width: 1000px) {
+  .image {
+    max-width: 100%;
+  }
 }
-}
-@media (max-width:800px) {
+@media (max-width: 800px) {
   .menulayout {
     grid-gap: 0;
   }
