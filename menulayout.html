@@ -67,26 +67,28 @@
     </section>
     <section id="menukipgryde">
       <div class="menulayout">
-        <div class="varmeinfo">
-          <p>
-            Donec id turpis at turpis venenatis consequat. Class aptent taciti
-            sociosqu ad litora torquent per conubia nostra, per inceptos
-            himenaeos.
-            <br />
-            Donec a est ornare, ornare orci ac, sodales quam. Suspendisse
-            tincidunt venenatis tincidunt. Phasellus sed aliquam metus.
-            <br />
-            In dictum libero eu ullamcorper mollis. Cras at fermentum quam.
-            Praesent vel tempor sapien.
-          </p>
+        <div class="info">
+          <h1 class="infotitel">
+            Varme
+          </h1>
+            <ol class="liste">
+              <li>Tænd/sluk</li>
+              <li>Aktuel temperatur på bunden</li>
+              <li>Aktuelt varmetrin</li>
+              <li>Aktuel madtemperatur</li>
+              <li>Taster for kip af gryde</li>
+              <li>Menu</li>
+              <li>Klokken</li>
+              <li>Taster for kip af gryde</li>
+            </ol>        
         </div>
         <div class="varmeundermenu">
-          <div class="tab" id="hide">
+          <div class="tab" id="hide1">
             <input
-              class="menulinks1" 
+              class="menulinks1"
               type="image"
-              onclick="openFase(event,'fase1');myFunction()"
-              src="images/varmelille2.png"
+              onclick="openFase(event,'fase1')"
+              src="images/varmelille.png"
               style="border-width: 0px"
             />
           </div>
@@ -94,44 +96,83 @@
             <img
               id="fase1"
               class="menucontent1"
-              src="images/varmestor2.png"
+              src="images/varmestor.png"
               alt="varme"
               onclick="fjernclass();"
             />
           </div>
         </div>
-        <div class="vandinfo">
-          <p>
-            Donec id turpis at turpis venenatis consequat. Class aptent taciti
-            sociosqu ad litora torquent per conubia nostra, per inceptos
-            himenaeos.
-            <br />
-            Donec a est ornare, ornare orci ac, sodales quam. Suspendisse
-            tincidunt venenatis tincidunt. Phasellus sed aliquam metus.
-            <br />
-            In dictum libero eu ullamcorper mollis. Cras at fermentum quam.
-            Praesent vel tempor sapien.
-          </p>
+        <div class="info">
+          <h1 class="infotitel">
+            Vand
+          </h1>
+          <ol class="liste">
+              <li>Tænd/sluk</li>
+              <li>Manuel vandpåfyldning</li>
+              <li>Forvalgt mængde</li>
+              <li>Akkumuleret mængde</li>
+              <li>Nulstilling af akkumuleret mængde</li>
+              <li>Taster for kip af gryde</li>
+              <li>Menu</li>
+              <li>Klokken</li>
+              <li>Taster for kip af gryde</li>
+            </ol>         
         </div>
-        <div class="vandmenu">
-          <img class="image1" src="images/varmelille2.png" alt="temperatur" />
+        <div class="vandundermenu">
+          <div class="tab" id="hide2">
+            <input
+              class="menulinks2"
+              type="image"
+              onclick="openFase(event,'fase2');"
+              src="images/vandlille.png"
+              style="border-width: 0px"
+            />
+          </div>
+          <div class="menucontents1">
+            <img
+              id="fase2"
+              class="menucontent2"
+              src="images/vandstor.png"
+              alt="varme"
+              onclick="fjernclass();"
+            />
+          </div>
         </div>
-        <div class="tidinfo">
-          <p>
-            Donec id turpis at turpis venenatis consequat. Class aptent taciti
-            sociosqu ad litora torquent per conubia nostra, per inceptos
-            himenaeos.
-            <br />
-            Donec a est ornare, ornare orci ac, sodales quam. Suspendisse
-            tincidunt venenatis tincidunt. Phasellus sed aliquam metus.
-            <br />
-            In dictum libero eu ullamcorper mollis. Cras at fermentum quam.
-            Praesent vel tempor sapien.
-          </p>
+        <div class="info">
+          <h1 class="infotitel">
+            Tid
+          </h1>
+            <ol class="liste">
+              <li>Tænd/sluk</li>
+              <li>Tid</li>
+              <li>Klokkeslet</li>
+              <li>Akkumuleret tid</li>
+              <li>Taster for kip af gryde</li>
+              <li>Menu</li>
+              <li>Klokken</li>
+              <li>Taster for kip</li>
+            </ol>
         </div>
-        <div class="tidmenu">
-          <img class="image1" src="images/varmelille2.png" alt="temperatur" />
-        </div>            
+        <div class="tidundermenu">
+          <div class="tab" id="hide3">
+            <input
+              class="menulinks3"
+              type="image"
+              onclick="openFase(event,'fase3');"
+              src="images/tidlille.png"
+              style="border-width: 0px"
+            />
+          </div>
+          <div class="menucontents3">
+            <img
+              id="fase3"
+              class="menucontent3"
+              src="images/tidstor.png"
+              alt="varme"
+              onclick="fjernclass();"
+            />
+          </div>
+        </div>
       </div>
     </section>
     <!-- Dette er frem/tilbage kontrolleren  -->
