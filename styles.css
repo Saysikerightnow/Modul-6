@@ -169,7 +169,122 @@ bottom: 2%;
   color: #5cb71d;
   text-align: center;
 }
+/* INTROTEKST */
 
+.introtekst h1 {
+  top: 50%;
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2b2b2b;
+}
+
+.introtekst h2 {
+  font-size: 2.1875rem;
+  text-align: center;
+  color: #2b2b2b;
+  font-family: "quicksand";
+  line-height: 40px;
+}
+
+/* Tekst sektion med forklaring*/
+/* med grå baggrund*/
+.tekstfelt1 h1 {
+  top: 50%;
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2b2b2b;
+}
+ .tekstfelt1{
+background-color: #F2F5F4;
+ }
+
+
+/* med hvid baggrund */
+ .tekstfelt2 h1 {
+   top: 50%;
+   font-size: 2.5rem;
+   text-align: center;
+   text-transform: uppercase;
+   color: #2b2b2b;
+ }
+
+.tekst h2 {
+  font-size: 1.5rem;
+  text-align: left;
+  color: #2b2b2b;
+  font-family: "quicksand";
+  line-height: 40px;
+}
+
+.introtekst {
+  z-index: 1;
+}
+.titelcontainer {
+  width: 50%;
+  margin: 10vh auto;
+  display: flex;
+justify-content: center;
+text-align: center;
+}
+
+
+.tekstfelt {
+  display: grid;
+  grid-template-columns: 50vw;
+  justify-content: center;
+  align-items: left;
+  min-height: 60vh;
+}
+.tekstfelt2 {
+  display: grid;
+  grid-template-columns: 45vw;
+  justify-content: center;
+  align-items: left;
+  min-height: 50vh;
+}
+.tekstfeltbund {
+  display: grid;
+  grid-template-columns: 50vw;
+  justify-content: center;
+  align-items: left;
+  min-height: 30vh;
+}
+
+.tekstcontainer {
+  display: grid;
+  grid-template-columns: 10vw 40vw;
+  grid-template-rows: auto;
+}
+
+
+
+.tekst, h4{
+  font-size: 25px;
+  color: #5cb71d;
+  text-align: center;
+}
+/*ikonet og rektangel toppen */
+.ikontop {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+justify-content: center;
+text-align: center;
+font-size: 100px;
+color: #5cb71d;
+}
+
+
+#boks {
+  border-radius: 25px;
+  border: 7px solid #73AD21;
+  padding-top: 30px;
+  width: 200px;
+  height: 200px;
+  margin-top: 40px;
+}
 /* TERMOMETER */
 .cls-2{
   transition: all .3s ease-in-out;
