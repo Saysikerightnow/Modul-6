@@ -186,6 +186,33 @@ bottom: 2%;
   font-family: "quicksand";
   line-height: 40px;
 }
+/* Betjeningsside*/
+
+.ikonfelt {
+  display: grid;
+  grid-template-columns: 20vw 20vw;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+.ikoncontainer {
+  display: grid;
+  grid-template-columns: 20vw 20vw;
+  grid-template-rows: auto;
+}
+.tekst h5 {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #2b2b2b;
+  font-family: "quicksand";
+  line-height: 40px;
+  padding-bottom: 20%;
+}
+.tekst img {
+   display: block;
+   max-width: 100%;
+   padding: 0% 20% 4px 20%;
+}
 
 /* Tekst sektion med forklaring*/
 /* med grå baggrund*/
