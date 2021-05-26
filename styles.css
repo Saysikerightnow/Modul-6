@@ -841,6 +841,16 @@ color: #5cb71b;
   .menulayout {
     grid-gap: 0;
     }
+    .tekstcontainer {
+      display: grid;
+      grid-template-columns: 50vw;
+      grid-template-rows: auto;
+
+    }
+    .tekst h2{
+      text-align: center;
+    }
+
   }
 @media (max-width: 600px) {
   .menulayout {
