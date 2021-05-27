@@ -200,6 +200,18 @@ bottom: 2%;
   grid-template-columns: 20vw 20vw;
   grid-template-rows: auto;
 }
+.ikoncontainer112 {
+  display: grid;
+  grid-template-columns: 50vw 40vw;
+  grid-template-rows: auto;
+}
+.ikonfelt112 {
+  display: grid;
+  grid-template-columns: 50vw 40vw;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
 .tekst h5 {
   font-size: 1.6rem;
   text-align: center;
@@ -212,6 +224,10 @@ bottom: 2%;
    display: block;
    max-width: 100%;
    padding: 0% 20% 4px 20%;
+}
+.tekst112 img {
+   display: block;
+   width: 100%;
 }
 
 /* Tekst sektion med forklaring*/
@@ -287,7 +303,7 @@ text-align: center;
 
 
 
-.tekst, h4{
+.tekst h4{
   font-size: 25px;
   color: #5cb71d;
   text-align: center;
@@ -877,7 +893,16 @@ color: #5cb71b;
     .tekst h2{
       text-align: center;
     }
-
+    .ikoncontainer {
+      display: grid;
+      grid-template-columns: 50vw;
+      grid-template-rows: auto;
+    }
+    .ikoncontainer112 {
+      display: grid;
+      grid-template-columns: 90vw;
+      grid-template-rows: auto;
+    }
   }
 @media (max-width: 600px) {
   .menulayout {
