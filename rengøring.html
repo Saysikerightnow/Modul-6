@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="menulayout.css" />
+    <link rel="stylesheet" href="CSS/styles.css" />
     <title>Rengøring og vedligeholdelse</title>
     <script
       src="https://kit.fontawesome.com/4f45418ed6.js"
@@ -30,7 +29,7 @@
           <ul id="dropdown">
             <li>FAQ fra teknisk afdeling</li>
             <li>FAQ fra køkkenet</li>
-            <li>Brugervejledning</li>
+            <a href="index.html"><li>Brugervejledning</li></a>
           </ul>
         </li>
 
@@ -75,12 +74,12 @@ God fornøjelse!
             </div>
 
         <div class="arrow">
-          <a href="#centersection"><i class="fas fa-arrow-circle-down"></i></a>
+          <a href="#start"><i class="fas fa-arrow-circle-down"></i></a>
               </div>
             </div>
 
         </section>
-<section class="tekstfelt1">
+<section class="tekstfelt1" id="start">
   <div class="ikontop">
     <p id="boks"><i class="fas fa-hand-sparkles"></i></p>
     <p> </p>
@@ -298,11 +297,11 @@ Klik den sorte ramme af og vask filterindsatsen i sæbevand. </h2>
     <!-- Dette er frem/tilbage kontrolleren  -->
     <section id="kontroller">
       <div class="fremtilbage">
-        <h1 class="kontrollerh1">Betjening</h1>
-        <i class="fas fa-chevron-left"></i>
-        <h1 class="kontrollerh12">2</h1>
-        <i class="fas fa-chevron-right"></i>
-        <h1 class="kontrollerh1">Temperatur</h1>
+      <a href="temperatur.html"> <h1 class="kontrollerh1">Temperatur</h1></a>
+      <a href="temperatur.html">  <i class="fas fa-chevron-left"></i></a>
+        <h1 class="kontrollerh12">4</h1>
+      <a href="index.html">  <i class="fas fa-chevron-right"></i></a>
+      <a href="index.html">  <h1 class="kontrollerh1">Forside</h1></a>
       </div>
     </section>
     <section id="footer">
@@ -340,8 +339,9 @@ Klik den sorte ramme af og vask filterindsatsen i sæbevand. </h2>
       </div>
     </section>
 
-    <script src="script.js"></script>
-    <script src="navbarstyle.js"></script>
-    <script src="parallax.js"></script>
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/navbarstyle.js" defer></script>
+    <script src="scripts/parallax.js" defer></script>
+    <script src="scripts/reveal.js" defer></script>
   </body>
 </html>

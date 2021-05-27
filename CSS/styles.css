@@ -20,6 +20,11 @@ a {
     text-decoration: none;
 }
 
+a:visited{
+  text-decoration: none;
+  color: #475569;
+}
+
 /* NAVIGATION */
 
 .navbar {
@@ -292,6 +297,49 @@ text-align: center;
   font-size: 25px;
   color: #5cb71d;
   text-align: center;
+}
+/* Betjeningsside*/
+
+.ikonfelt {
+  display: grid;
+  grid-template-columns: 20vw 20vw;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+.ikoncontainer {
+  display: grid;
+  grid-template-columns: 20vw 20vw;
+  grid-template-rows: auto;
+}
+.ikoncontainer112 {
+  display: grid;
+  grid-template-columns: 50vw 40vw;
+  grid-template-rows: auto;
+}
+.ikonfelt112 {
+  display: grid;
+  grid-template-columns: 50vw 40vw;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+.tekst h5 {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #2b2b2b;
+  font-family: "quicksand";
+  line-height: 40px;
+  padding-bottom: 20%;
+}
+.tekst img {
+   display: block;
+   max-width: 100%;
+   padding: 0% 20% 4px 20%;
+}
+.tekst112 img {
+   display: block;
+   width: 100%;
 }
 /*ikonet og rektangel toppen */
 .ikontop {
@@ -817,11 +865,6 @@ color: #5cb71b;
 
 /*scroll header reveal*/
 
-.scrolling-active {
-  background-color: #fff;
-  box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-  }
-}
 
 /*media queries*/
 
@@ -840,6 +883,12 @@ color: #5cb71b;
     gap: 7vh;
     }
 
+    .scrolling-active {
+      background-color: #fff;
+      box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+      }
+    }
+}
 @media screen and (max-width: 610px) {
   .footercontainer {
     gap: 0;
@@ -872,10 +921,25 @@ color: #5cb71b;
       display: grid;
       grid-template-columns: 50vw;
       grid-template-rows: auto;
+    }
+    .ikoncontainer {
+      display: grid;
+      grid-template-columns: 50vw;
+      grid-template-rows: auto;
 
     }
     .tekst h2{
       text-align: center;
+    }
+    .ikoncontainer {
+      display: grid;
+      grid-template-columns: 50vw;
+      grid-template-rows: auto;
+    }
+    .ikoncontainer112 {
+      display: grid;
+      grid-template-columns: 90vw;
+      grid-template-rows: auto;
     }
 
   }

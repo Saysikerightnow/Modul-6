@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="menulayout.css" />
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="stylesheet" href="CSS/menulayout.css" />
     <title>Betjening af kipgryde</title>
     <script
       src="https://kit.fontawesome.com/4f45418ed6.js"
@@ -17,7 +17,7 @@
 
       <ul class="nav-menu">
         <li id="menu1" class="nav-item">
-          <a href="#" class="nav-link">Produkter <i class="fas fa-chevron-down"></i></a>
+          <a class="nav-link">Produkter <i class="fas fa-chevron-down"></i></a>
           <ul id="dropdown1">
             <li>Kipstegere</li>
             <li>Kipgryder</li>
@@ -26,11 +26,11 @@
         </li>
 
         <li id="menu" class="nav-item">
-          <a href="#" class="nav-link">God viden <i class="fas fa-chevron-down"></i></a>
+          <a class="nav-link">God viden <i class="fas fa-chevron-down"></i></a>
           <ul id="dropdown">
             <li>FAQ fra teknisk afdeling</li>
             <li>FAQ fra køkkenet</li>
-            <li>Brugervejledning</li>
+            <a href="index.html"><li>Brugervejledning</li></a>
           </ul>
         </li>
 
@@ -63,9 +63,7 @@
         <img src="images/parallax billeder/8.png" data-speed="6" class="layer">
         <img src="images/parallax billeder/9.png" data-speed="-7" class="layer">
         <img src="images/parallax billeder/10.png" data-speed="-5" class="layer">
-
         <div class="menucontainer">
-
         <div class="introtekst">
           <h1>BETJENING AF KIPGRYDEN</h1>
           <h2> I denne del af vejledningen handler det om  hvad du må og hvad du ikke må, når du betjener gryden.
@@ -73,12 +71,10 @@ Her er også en lille illustration, som viser hvordan man slukker og tænder for
 God fornøjelse!
 </h2>
             </div>
-
         <div class="arrow">
           <a href="#tekstfelt1"><i class="fas fa-arrow-circle-down"></i></a>
               </div>
             </div>
-
         </section>
 <section class="tekstfelt1" id=tekstfelt1>
 
@@ -156,11 +152,11 @@ Drej håndtaget så det står lodret. Altså Den hvide pil opad, for at tænde.
     <!-- Dette er frem/tilbage kontrolleren  -->
     <section id="kontroller">
       <div class="fremtilbage">
-        <h1 class="kontrollerh1">Betjening</h1>
-        <i class="fas fa-chevron-left"></i>
-        <h1 class="kontrollerh12">2</h1>
-        <i class="fas fa-chevron-right"></i>
-        <h1 class="kontrollerh1">Temperatur</h1>
+      <a href="index.html"> <h1 class="kontrollerh1">Betjening</h1> </a>
+      <a href="index.html">  <i class="fas fa-chevron-left"></i>    </a>
+        <h1 class="kontrollerh12">1</h1>
+        <a href="menulayout.html"> <i class="fas fa-chevron-right"></i> </a>
+        <a href="menulayout.html"> <h1 class="kontrollerh1">Menuen</h1> </a>
       </div>
     </section>
     <section id="footer">
@@ -198,8 +194,9 @@ Drej håndtaget så det står lodret. Altså Den hvide pil opad, for at tænde.
       </div>
     </section>
 
-    <script src="script.js"></script>
-    <script src="navbarstyle.js"></script>
-    <script src="parallax.js"></script>
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/navbarstyle.js" defer></script>
+    <script src="scripts/parallax.js" defer></script>
+    <script src="scripts/reveal.js" defer></script>
   </body>
 </html>
