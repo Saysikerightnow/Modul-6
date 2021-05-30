@@ -12,7 +12,8 @@ function mobileMenu() {
 
 //dropdown i menuen
 //dropdown produkter
-document.getElementById("menu1").addEventListener("click", openMenu1);
+
+document.getElementById("menu, menu1").addEventListener("click", openMenu1);
 
 function openMenu1() {
 
