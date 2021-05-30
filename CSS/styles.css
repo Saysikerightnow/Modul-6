@@ -377,7 +377,7 @@ h4 {
   color: #5cb71d;
 }
 
-#boks {
+.boks {
   border-radius: 25px;
   border: 7px solid #73ad21;
   padding-top: 30px;
@@ -398,7 +398,7 @@ h4 {
   transform: scale(1.2);
 }
 
-#stege {
+.stege {
   cursor: default;
   transition: all 0.3s ease-in-out;
   transition: transform 0.3s ease;
@@ -406,7 +406,7 @@ h4 {
   transform-box: fill-box;
 }
 
-#stege:hover {
+.stege:hover {
   transform: scale(1.5);
 }
 
@@ -414,36 +414,36 @@ h4 {
   font-size: 12.85px;
 }
 
-#tekst {
+.teksttemp {
   cursor: default;
   transition: all 0.3s ease-in-out;
   transition: transform 0.3s ease;
   transform-origin: center right;
   transform-box: fill-box;
 }
-#tekst:hover {
+.teksttemp:hover {
   transform: scale(1.5);
 }
 
-#tekst1 {
+.teksttemp1 {
   cursor: default;
   transition: all 0.3s ease-in-out;
   transition: transform 0.3s ease;
   transform-origin: center center;
   transform-box: fill-box;
 }
-#tekst1:hover {
+.teksttemp1:hover {
   transform: scale(1.5);
 }
 
-#tekst2 {
+.teksttemp2 {
   cursor: default;
   transition: all 0.3s ease-in-out;
   transition: transform 0.3s ease;
   transform-origin: center center;
   transform-box: fill-box;
 }
-#tekst2:hover {
+.teksttemp2:hover {
   transform: scale(1.1);
 }
 
